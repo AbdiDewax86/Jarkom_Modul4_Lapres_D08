@@ -49,7 +49,8 @@ xterm -T NGANJUK -e linux ubd0=NGANJUK,jarkom umid=NGANJUK eth0=daemon,,,switch2
 xterm -T JOMBANG -e linux ubd0=JOMBANG,jarkom umid=JOMBANG eth0=daemon,,,switch22 mem=64M &
 ```
 
-Setelah dibentuk topologi di UML, dapat dilakukan pembagian subnet
+Setelah dibentuk topologi di UML, dapat dilakukan pembagian subnet.
+
 Pembagian subnet dilakukan berdasarkan diagram berikut:
 
 ![alt text](images/UML1.png)
@@ -76,6 +77,7 @@ Dari perhitungan routing CIDR, didapat tree sbb:
 ![alt text](images/UML2.png)
 
 Untuk mencari IP, dapat digunakan IP calculator: http://jodies.de/ipcalc
+
 Dimulai dengan IP 192.168.0.0 dengan netmask /16 dan subnet sesuai cabang2 dalam tree, didapat NetID, Netmask, dan Broadcast ID sbb:
 
-![alt text](images/UML3.png)
+![alt text](images/UML3.PNG)
