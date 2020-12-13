@@ -8,13 +8,16 @@ Pertama kita lakukan pembagian subnet dan menentukan jumlah semua subnetnya
 ![alt text](images/CPT.png)
 
 Selanjutnya kita menjumlahkan semua IP yang dibutuhkan oleh subnet dan melakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan. 
+
 ![alt text](images/CPT2.png)
 
 Langakah selanjutnya kita membentuk pohon berdasarkan IP mayor atau NID utama kita yaitu 192.168.0.0 dengan netmask /19 dan menghitung pembagian IP berdasarkan NID dan netmask tersebut. 
+
 ![alt text](images/CPT3.png)
 
+
 Berikut ini adalah hasil pembagian subnet dan list NID, NETMASK dan BROADCAST ADDRESSnya
-![alt text](images/CPT4.png)
+![alt text](images/CPT4.PNG)
 
 #### Routing
 Berikut ini adalah settingan routing di tiap tiap router
