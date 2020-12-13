@@ -1,11 +1,22 @@
 # Jarkom_Modul4_Lapres_D08
 ## Cisco Packet Tracer - VLSM
 
+Untuk CPT kami menggunakan perhitungan dengan metode VLSM Classless yang berguna untuk mengefisienkan pembagian IP
+
+#### Subnetting
+Pertama kita lakukan pembagian subnet dan menentukan jumlah semua subnetnya  
 ![alt text](images/CPT.png)
+Selanjutnya kita menjumlahkan semua IP yang dibutuhkan oleh subnet dan melakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan. 
 ![alt text](images/CPT2.png)
+Langakah selanjutnya kita membentuk pohon berdasarkan IP mayor atau NID utama kita yaitu 192.168.0.0 dengan netmask /19 dan menghitung pembagian IP berdasarkan NID dan netmask tersebut. 
 ![alt text](images/CPT3.png)
+Berikut ini adalah hasil pembagian subnet dan list NID, NETMASK dan BROADCAST ADDRESSnya
 ![alt text](images/CPT4.png)
 
+#### Routing
+Berikut ini adalah settingan routing di tiap tiap router
+
+##### Surabaya
 
 ## UML - CIDR
 Untuk UML, dipakai perhitungan routing CIDR. CIDR membagi topologi menjadi beberapa subnet, lalu secara bertahap mengelompokkan subnet-subnet tersebut menjadi 1 topologi. Pembagian IP diberikan melalui cara ini. 
