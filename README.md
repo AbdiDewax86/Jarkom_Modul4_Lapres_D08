@@ -22,7 +22,65 @@ Berikut ini adalah hasil pembagian subnet dan list NID, NETMASK dan BROADCAST AD
 #### Routing
 Berikut ini adalah settingan routing di tiap tiap router
 
-##### Surabaya
+##### SURABAYA
+```C
+192.168.27.128/28 via 192.168.27.150
+192.168.24.0/23 via 192.168.27.150
+192.168.20.0/22 via 192.168.27.150
+192.168.12.0/22 via 192.168.27.150
+192.168.26.0/24 via 192.168.27.150
+192.168.16.0/22 via 192.168.27.154
+192.168.27.0/25 via 192.168.27.154
+192.168.0.0/21 via 192.168.27.154
+192.168.27.156/30 via 192.168.27.154
+192.168.27.144/30 via 192.168.27.150
+10.151.79.76/30 via 192.168.27.150
+
+```
+
+##### BATU
+```C
+192.168.26.0/24 via 192.168.27.146
+192.168.27.128/28 via 192.168.24.3
+192.168.12.0/22 via 192.168.27.146
+0.0.0.0/0 via 192.168.27.149
+0.0.0.0/0 via 192.168.27.146
+
+```
+
+##### PASURUAN
+```C
+0.0.0.0/0 via 192.168.27.153
+192.168.27.0/25 via 192.168.27.158
+192.168.0.0/21 via 192.168.27.158
+0.0.0.0/0 via 192.168.27.158
+
+```
+
+##### PROBOLINGGO
+```C
+0.0.0.0/0 via 192.168.27.157
+192.168.8.0/22 via 192.168.27.157
+
+```
+
+##### KEDIRI
+```C
+192.168.12.0/22 via 192.168.26.3
+0.0.0.0/0 via 192.168.27.145
+192.168.8.0/22 via 192.168.27.145
+
+```
+
+##### MADIUN
+```C
+0.0.0.0/0 via 192.168.24.1
+```
+
+##### BLITAR
+```C
+0.0.0.0/0 via 192.168.26.1
+```
 
 ## UML - CIDR
 Untuk UML, dipakai perhitungan routing CIDR. CIDR membagi topologi menjadi beberapa subnet, lalu secara bertahap mengelompokkan subnet-subnet tersebut menjadi 1 topologi. Pembagian IP diberikan melalui cara ini. 
