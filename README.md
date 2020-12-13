@@ -1,6 +1,10 @@
 # Jarkom_Modul4_Lapres_D08
 ## Cisco Packet Tracer - VLSM
 
+![alt text](images/CPT.png)
+![alt text](images/CPT2.png)
+![alt text](images/CPT3.png)
+![alt text](images/CPT4.png)
 
 
 ## UML - CIDR
